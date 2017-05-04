@@ -1,0 +1,51 @@
+@import url("http://cdn.rawgit.com/rastikerdar/shabnam-font/v1.1.0/dist/font-face.css");
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400');
+
+body, input, button, textarea, h1, h2, h3 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+}
+
+section {
+  padding: 2em 0 2em 0;
+  /*background-size: cover;
+  -webkit-transform: translateY(0%);
+  -moz-transform: translateY(0%);
+  -ms-transform: translateY(0%);
+  transform: translateY(0%);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;*/
+}
+
+#root, #me {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%
+}
+
+#root {
+  background: url('../images/sea.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+  color: #eeeeee;
+}
+
+#me {
+  background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0));
+}
+
+#links {
+  padding-top: 2em;
+}
+
+#links a {
+  margin: 0 1em 0 1em;
+  color: #eeeeee;
+  font-size: 1.4em;
+}
