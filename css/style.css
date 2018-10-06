@@ -49,3 +49,7 @@ section {
   color: #eeeeee;
   font-size: 1.4em;
 }
+
+code {
+  background-color: #adabc9;
+}
